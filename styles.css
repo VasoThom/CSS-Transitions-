@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(208, 208, 208);
+}
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+p {
+  font-size: xx-large;
+  color: rgb(63, 51, 51);
+  padding: 10px;
+}
+label {
+  font-size: x-large;
+  color: blue;
+}
+input {
+  background-color: bisque;
+}
+button {
+  padding: 2rem 3rem;
+  border-radius: 45%;
+  border: none;
+  color: rgb(246, 243, 243);
+  background-color: rgb(136, 30, 30);
+  font-size: 1rem;
+  font-weight: 600;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: brown;
+}
+
+button:active {
+  transform: scale(1.2) rotateX(180deg);
+}
